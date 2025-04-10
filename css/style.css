@@ -12,6 +12,12 @@ header{
   height: 60px;
   background-color:pink;
 
-
+header nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(228, 117, 135);
+}
 
 }
