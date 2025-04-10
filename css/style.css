@@ -1,3 +1,7 @@
+:root{
+  --height-default: 60px;
+}
+
 *{
  margin: 0;
  padding: 0;
@@ -15,7 +19,7 @@ background-color:rgb(228, 117, 135);
 header{
   position: relative;
   width: 100%;
-  height: 60px;
+  height: var(--height-default);
   background-color:pink;
 }
 
@@ -34,11 +38,16 @@ nav ul{
     justify-content: center;
     align-items: center;
     list-style: none;
-    height: 60px;
+    height: var(--hright-default);
     margin: auto;
 }
 ul li{
 position: relative;
 margin-right: 1em;
 
+}
+li a{
+  text-decoration: none;
+  color:rgb(228, 117, 135);
+   font-size: 20pt;
 }
