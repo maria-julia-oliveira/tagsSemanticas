@@ -38,7 +38,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     list-style: none;
-    height: var(--hright-default);
+    height: var(--height-default);
     margin: auto;
 }
 ul li{
